@@ -27,4 +27,5 @@ app.use("/contact",contactRouter);
 
 app.listen(port, () => {
     console.log(`Server running at ${port}`);
+    console.log("============================");
 })
