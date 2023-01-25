@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+.lightpink{
+  background-color: #f9cbe0;
+  color: black!important;
+  font-size: large;
+  padding: 0 10%;
+}
+.img{
+  width: 400px;
+  height: 250px;
+}
+.text-light1{
+  color:#b8b8b8!important;
+}
+.slideImg{
+  width: 100%;
+  height: 500px;
+  padding-inline: 1%;
+}
+.box {
+  position: absolute;
+  top: 60%;
+  width: 5.9%!important;
+}
+.subscribe{
+  height: 100%;
+} 
+.input1{
+  width: 100%;
+}
+.a{
+  text-decoration: none!important;
+}
+.li{
+  list-style: none!important;
+}
+.size{
+font-size:x-large!important;
+}
+.a1{
+  text-decoration: none!important;
+  color: black;
+}
+.textcmt:focus {
+  outline: none !important;
+}
+#c1{
+  display: none;
+}
+.blog-img{
+  width: 100%!important;
+
+}
+
+.word-wrap{
+  word-wrap: break-word!important;
+}
+.blogbtn{
+  width: 20%!important;
+}
+/* .blog{
+  position: absolute;
+  top: 10%;
+} */
+.btn1{
+  width:20%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 1210px) {
+  .box {
+    position: absolute;
+    top: 60%;
+    width: 5.5%!important;
+  }
+}
+@media screen and (max-width: 1034px) {
+  .flex{
+    display: flex!important;
+    flex-direction: column!important;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .flex{
+    display: flex!important;
+    flex-direction: row!important;
+
+  }
+  .box {
+    position: absolute;
+    top: 60%;
+    width: 4.5%!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    position: absolute;
+    top: 60%;
+    width: 4.0%!important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .f1{
+    display: flex!important;
+    flex-direction: column!important;
+ 
+  }
+}
