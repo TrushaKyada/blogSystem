@@ -7,7 +7,7 @@ console.log("dfdnk");
     console.log("asas",Token);
     if(Token){
        
-        const decoded = jwt.verify(Token, "iamtrushakyada");
+        const decoded = jwt.verify(Token, SECRET_KEY);
      
         const data = await userModel.findById({_id:decoded._id})
         req.user = data
